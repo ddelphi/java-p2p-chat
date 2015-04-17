@@ -44,14 +44,14 @@ The main structure of the project is:
 
 The process of the program is very simple, see the process below:
 
-	# input object make a message,
+	# input object makes a message,
 	  trigger "client_input" event
 
-	# the input action object receive the message,
+	# the input action object receives the message,
 	  then prepare the final message to be sent via the network,
 	  then add to the message container MsgOutBox
 
-	# finally the network object will auto fetch messages from the MsgOutBox,
+	# finally the network object will fetch messages from the MsgOutBox automatically,
 	  then send to the other end
 
 ##Todo
