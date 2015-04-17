@@ -17,11 +17,11 @@ To try the manual example, you should follow these instructions:
 
 * run the Main_1 class, then run the Main_2 class (means two users)
 * typing commands below in each console:
-
-	:run
-	:setServer 127.0.0.1|9088
-	:setUser jack
-	:getListUser
+	
+	* :run
+	* :setServer 127.0.0.1|9088
+	* :setUser jack
+	* :getListUser
 
 * then typing words in each console, to say to each other
 
